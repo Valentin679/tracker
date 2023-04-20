@@ -1,0 +1,16 @@
+img {
+    width: 150px;
+    height: 150px;
+}
+
+span {
+    padding: 5px 20px;
+}
+
+.speedRD {
+    display: none;
+}
+
+.show {
+    display: block;
+}
