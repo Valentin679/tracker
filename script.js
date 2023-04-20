@@ -228,7 +228,9 @@ function getPos ()  {
     let myPosition = document.getElementById('myPosition');
     navigator.geolocation.watchPosition(position => {
         const { latitude, longitude } = position.coords
-        myPosition.innerHTML = `<p>Позиция: ${latitude} : ${longitude} </p>`
+        const speed = position.coords.speed
+        myPosition.innerHTML = `<p>Позиция: ${latitude} : ${longitude}</p>
+<p>Скорость: ${speed}</p>`
     })
 }
 
