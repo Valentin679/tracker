@@ -224,6 +224,20 @@ startTimeRD = RD.tickTime[0];
         console.log(tripPosition);
     }
 }
+function getPos ()  {
+    let myPosition = document.getElementById('myPosition');
+    navigator.geolocation.watchPosition(position => {
+        const { latitude, longitude } = position.coords
+        myPosition.innerHTML = `<p>Позиция: ` + latitude +` : `+  longitude` </p>`
+    })
+}
+
+
+// постоянно перезаписываем в latitude и longitude координаты пользователя
+
+
+
+
 
 
 
