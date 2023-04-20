@@ -23,8 +23,8 @@ const legend = {
 info : [{
             distance : 0.3,
             interval : 0.6,
-            direction: "./img/72.jpg",
-            orientir: "./img/72inf.jpg"
+            direction: "https://avatars.mds.yandex.net/i?id=e79d1013b5de5d094bb851d70a15b6d989d56232-8438673-images-thumbs&n=13&exp=1",
+            orientir: "https://avatars.mds.yandex.net/i?id=e79d1013b5de5d094bb851d70a15b6d989d56232-8438673-images-thumbs&n=13&exp=1"
         },
         {
             distance : 0.8,
