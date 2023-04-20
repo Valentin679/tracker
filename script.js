@@ -29,7 +29,7 @@ info : [{
         {
             distance : 0.8,
             interval : 1.07,
-            direction: "./img/73.jpg",
+            direction: "https://w7.pngwing.com/pngs/673/42/png-transparent-arrow-computer-icons-symbol-encapsulated-postscript-arrow-cdr-angle-triangle.png",
             orientir: ""
         },
         {
