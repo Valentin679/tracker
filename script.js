@@ -10,7 +10,7 @@ function success({ coords }) {
     const position = [latitude, longitude]
     console.log(position) // [широта, долгота]
 
-    document.write('<b>Привет из JS</b>' + latitude: longitude);
+    //document.write('<b>Привет из JS</b>' + latitude: longitude);
 }
 
 function error({ message }) {
@@ -23,26 +23,26 @@ const legend = {
 info : [{
             distance : 0.3,
             interval : 0.6,
-            direction: "img/72.jpg",
-            orientir: "img/72inf.jpg"
+            direction: "./img/72.jpg",
+            orientir: "./img/72inf.jpg"
         },
         {
             distance : 0.8,
             interval : 1.07,
-            direction: "img/73.jpg",
+            direction: "./img/73.jpg",
             orientir: ""
         },
         {
             distance : 1.12,
             interval : 0.88,
-            direction: "img/74.jpg",
-            orientir: "img/74inf.jpg"
+            direction: "./img/74.jpg",
+            orientir: "./img/74inf.jpg"
         },
         {
             distance : 2,
             interval : false,
-            direction: "img/75.jpg",
-            orientir: "img/75inf.jpg"
+            direction: "./img/75.jpg",
+            orientir: "./img/75inf.jpg"
         }
 ]
 }
