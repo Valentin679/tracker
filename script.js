@@ -10,7 +10,6 @@ function success({ coords }) {
     const position = [latitude, longitude]
     console.log(position) // [широта, долгота]
 
-    // document.write('<b>Привет из JS</b>' + latitude: longitude);
 }
 
 function error({ message }) {
