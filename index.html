@@ -12,68 +12,11 @@
 
 <body>
     <div class="container">
-        <div class="row mt-5 mb-2">
-            <div class="col-2 btn-group-vertical">
-                <button type="button" id="plusKm" class="btn btn-success mb-2">+ 0.2 Км</button>
-                <button type="button" id="minusKm" class="btn btn-danger mb-2">- 0.2 Км</button>
-                <button type="button" id="RD" class="btn btn-warning">Включить РД</button>
-            </div>
-            <div class="col-2 d-flex justify-content-center">
-                <div id="position-info">
-                    <img id="direction" class="rounded mx-auto d-block mb-3" src="">
-                    <div class="distControl flex-nowrap">
-                        <span class="border" id="distance"></span>
-                        <span class="border" id="interval"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div><img id="orientir" src="" alt=""></div>
-            </div>
-        </div>
-        <div class="row mb-5">
-            <div class="col-2"></div>
-            <div class="col-2 d-flex flex-column align-items-center" id="allmark">
-                <button type="button" id="succsesPosition" class="btn btn-success mb-2">Пройдено</button>
-                <div id="allodo">0</div>
-                <div id="alltime">0</div>
-            </div>
 
-        </div>
-
-        <div class="row mb-5">
-            <div class="col-12">
-                <div class="speedRD">
-                    <button type="button" id="speed20" value="20" class="btn btn-danger mb-2">20</button>
-                    <button type="button" id="speed40" value="40" class="btn btn-danger mb-2">40</button>
-                    <button type="button" id="speed50" value="50" class="btn btn-danger mb-2">50</button>
-                    <button type="button" id="speed60" value="60" class="btn btn-danger mb-2">60</button>
-                    <button type="button" id="speed80" value="80" class="btn btn-danger mb-2">80</button>
-                    <button type="button" id="speed90" value="90" class="btn btn-danger mb-2">90</button>
-                    <button type="button" id="checkPosition" class="btn btn-success mb-2">Отметка на текущем пробеге</button>
-                    <br><input id="correctSpeedRd" type="text" />
-                </div>
-            </div>
-        </div>
-        <div class="row mb-5">
-            <div class="col-5">
-                <div class="speedRD">
-                </div>
-            </div>
-        </div>
         <button onclick="getPos()">Моя позиция</button>
         <div id="myPosition">
 
         </div>
-    </div>
-    <!-- <div class="container">
-        <div class="row mt-5 mb-5">
-            <div class="col-6">
-                <button id="find-me">Show my location</button><br/>
-                <p id="status"></p>
-                <a id="map-link" target="_blank"></a>
-            </div>
-        </div> -->
     </div>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
